@@ -1,0 +1,57 @@
+.locations {
+    display: flex;
+    flex-direction: column;
+    min-height: 80vh;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+
+    @media (max-width: 70rem) {
+        min-height: auto;
+    }
+}
+
+.searchBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputLocation {
+    width: 100%;
+
+    margin-right: 1rem;
+    padding: 0.5rem 0.5rem 0.5rem 0;
+
+    border: 0;
+    border: 2px solid var(--transparent);
+    border-bottom: 2px solid var(--border-light);
+
+    &:focus-visible {
+        border-bottom: 2px solid var(--border-dark);
+        outline: none;
+    }
+}
+
+.title {
+    margin: 1.25rem 0 0 0;
+    font-weight: 500;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--font-dark);
+}
+
+.bottomControls {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: auto;
+    padding-top: 1rem;
+}
+
+.notFound {
+    position: absolute;
+    bottom: -1.5rem;
+    font-weight: 500;
+    font-size: 0.75rem;
+    color: var(--error-primary);
+}

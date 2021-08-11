@@ -1,0 +1,19 @@
+.forecastFiveDays {
+    display: grid;
+    margin: 1rem 0 0 0;
+    padding: 0;
+    list-style: none;
+    gap: 0.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(3.75rem, 1fr));
+}
+
+.forecastDay {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.day,
+.weekDay {
+    font-weight: 500;
+}

@@ -1,0 +1,26 @@
+.app {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+
+    @media (max-width: 70rem) {
+        display: block;
+    }
+}
+
+.container {
+    display: grid;
+    width: 100%;
+    min-width: var(--viewport--sm);
+    max-width: var(--viewport--xl);
+    margin: 0 auto;
+    padding: 0 2rem;
+    grid-template-columns: 32rem minmax(32rem, 1fr);
+    gap: 2rem;
+
+    @media (max-width: 70rem) {
+        max-width: var(--viewport--md);
+        padding: 1rem;
+        grid-template-columns: auto;
+    }
+}

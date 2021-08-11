@@ -1,0 +1,28 @@
+.forecast {
+    position: relative;
+    flex-grow: 1;
+    min-height: 30rem;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    box-shadow: var(--shadow);
+
+    @media (max-width: 70rem) {
+        padding: 2rem 1rem;
+    }
+
+    @media (max-width: 424px) {
+        padding: 2rem 1rem;
+    }
+}
+
+.location {
+    margin: 0 2rem 0 0;
+    font-size: 2rem;
+    line-height: 1.25em;
+}
+
+.updateButton {
+    position: absolute;
+    top: 1.5rem;
+    right: 0.5rem;
+}

@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot should take a snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="app"
+  >
+    <main
+      class="container"
+    >
+      <h1
+        class="visuallyHidden"
+        data-testid="visibility-hidden"
+      >
+        World Weather Forecast
+      </h1>
+      <section
+        class="locations"
+      >
+        <div
+          class="searchBox"
+        >
+          <input
+            class="inputLocation"
+            placeholder="Type city name"
+            value=""
+          />
+          <button
+            class="button undefined"
+          >
+            Add
+          </button>
+        </div>
+        <h2
+          class="title"
+        >
+          Recent Locations
+        </h2>
+        <div
+          class="bottomControls"
+        >
+          <button
+            class="button undefined"
+          >
+            Clear
+          </button>
+        </div>
+      </section>
+    </main>
+  </div>
+</DocumentFragment>
+`;

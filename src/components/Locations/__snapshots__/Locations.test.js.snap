@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`snapshot should take a snapshot 1`] = `
+<DocumentFragment>
+  <section
+    class="locations"
+  >
+    <div
+      class="searchBox"
+    >
+      <input
+        class="inputLocation"
+        placeholder="Type city name"
+        value=""
+      />
+      <button
+        class="button undefined"
+      >
+        Add
+      </button>
+    </div>
+    <h2
+      class="title"
+    >
+      Recent Locations
+    </h2>
+    <div
+      class="bottomControls"
+    >
+      <button
+        class="button undefined"
+      >
+        Clear
+      </button>
+    </div>
+  </section>
+</DocumentFragment>
+`;
